@@ -7,9 +7,13 @@ const nextConfig = {
   },
   experimental: {
     webpackBuildWorker: true,
-    parallelServerBuildTraces: true,
-    parallelServerCompiles: true
   },
+  // Add output configuration
+  output: 'standalone',
+  // Minimize the output
+  swcMinify: true,
+  // Disable source maps in production
+  productionBrowserSourceMaps: false,
 }
 
 module.exports = nextConfig
