@@ -1,0 +1,5 @@
+npm install clsx tailwind-merge --legacy-peer-deps
+# or
+yarn add clsx tailwind-merge --legacy-peer-deps
+# or
+pnpm add clsx tailwind-merge --legacy-peer-deps
